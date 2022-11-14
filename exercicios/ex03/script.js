@@ -1,3 +1,21 @@
 var a;
-var b = "placa de vídeo";
-console.log("b");
+
+var pc = "placa de vídeo";
+
+console.log(pc);
+
+pc = a;
+
+console.log(pc);
+
+a = "processador";
+
+pc = a;
+
+console.log(pc);
+
+a = "ssd";
+
+pc = a;
+
+console.log(pc);
