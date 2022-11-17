@@ -24,3 +24,11 @@ var mod = 30;
 resultado = mod % 9;
 
 console.log(resultado);
+
+
+// teste de outra aula
+var teste = 30;
+
+teste %= 2;
+
+console.log(teste)
