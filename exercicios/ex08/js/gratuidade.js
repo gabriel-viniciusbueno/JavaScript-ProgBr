@@ -2,9 +2,9 @@
 
 var idade = 11;
 
-var maior60 = idade >= 60;
-var menor10 = idade <= 10;
+var maior60 = idade >= 60; // vai dar false
+var menor10 = idade <= 10; // vai dar false
 
-var gratuidade = maior60 || menor10;
+var gratuidade = maior60 || menor10; // se ambos os valores são falsos, gratuidade também vai ser
 
 console.log("Rola gratuidade?",gratuidade);
