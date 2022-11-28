@@ -50,3 +50,5 @@ switch(conceito){
 
 
 //Se por algum acaso nós mudarmos a variável conceito para "mais ou menos", switch deixará de funcionar pois não encontrará esse valor em seus cases. Logo, vai disparar a mensagem de erro (default)
+
+//Switch também pode ser considerado uma condicional por conta disso, uma condição gera uma ação
