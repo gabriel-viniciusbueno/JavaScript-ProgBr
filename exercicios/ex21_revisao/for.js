@@ -26,3 +26,12 @@ for(var index in alunos){
 
     console.log(aluno + " - " + nota1 + " - " + nota2 + " - " + m + " - " + passou(m));
 }
+
+
+var notasbalas = function(b1, b2){
+    return (b1+b2) /2;
+}
+
+var notafinal = notasbalas(9,10);
+
+console.log(notafinal);
